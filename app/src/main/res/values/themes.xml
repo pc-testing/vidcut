@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- The app draws all its own colours (dark or light, chosen in Settings).
+         forceDarkAllowed=false stops the phone from recolouring it. -->
+    <style name="Theme.VidCut" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/vc_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>
